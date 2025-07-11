@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
-const { educationHistory, skills, projects } = require('./data.js');
+const serverless = require('serverless-http');
+const { educationHistory, skills, projects } = require('./data');
 
 const app = express();
 app.use(cors());
