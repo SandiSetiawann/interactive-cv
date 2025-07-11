@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "serverless-http": "^3.2.0"
+  },
+  "name": "interactive-cv",
+  "version": "1.0.0",
+  "description": "Website portofolio pribadi dibangun dengan Vue.js, Express, dan Vercel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandiSetiawann/interactive-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandiSetiawann/interactive-cv/issues"
+  },
+  "homepage": "https://github.com/SandiSetiawann/interactive-cv#readme"
+}

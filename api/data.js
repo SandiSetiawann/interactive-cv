@@ -21,7 +21,6 @@ link: '#'
 }
 ];
 module.exports = {
-
 educationHistory,
 skills,
 projects

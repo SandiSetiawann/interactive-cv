@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import SectionTitle from './SectionTitle.vue'; // Asumsi Anda punya komponen
@@ -14,7 +14,6 @@ console.error('Gagal mengambil data skill:', error);
 }
 });
 </script>
-
 
 <template>
   <section id="skill" class="py-20 bg-gray-50">
