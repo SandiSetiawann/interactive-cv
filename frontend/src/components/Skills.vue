@@ -1,13 +1,21 @@
-<script setup>
+<script>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import SectionTitle from './SectionTitle.vue';
+import SectionTitle from './SectionTitle.vue'; // Asumsi Anda punya komponen
 const skills = ref([]);
+const API_URL = import.meta.env.PROD ? '/api/skills' :
+'http://localhost:3000/api/skills';
 onMounted(async () => {
-try { const response = await axios.get('http://localhost:3000/api/skills'); skills.value = response.data;
-} catch (error) { console.error(error); }
+try {
+const response = await axios.get(API_URL);
+skills.value = response.data;
+} catch (error) {
+console.error('Gagal mengambil data skill:', error);
+}
 });
 </script>
+
+
 <template>
   <section id="skill" class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
