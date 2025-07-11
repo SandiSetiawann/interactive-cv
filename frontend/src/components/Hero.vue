@@ -21,9 +21,9 @@
     </div>
     <div class="md:w-1/2 flex justify-center animate-slide-in-right">
       <img
-        src="https://via.placeholder.com/400"
+        src="/images/profile.jpg"
         alt="Foto Profil"
-        class="w-80 h-80 rounded-full object-cover shadow-lg"
+        class="w-80 h-80 rounded-full object-cover shadow-lg object-cover"
       />
     </div>
   </section>
